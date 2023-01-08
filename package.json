@@ -1,0 +1,30 @@
+{
+    "name": "time-tracker",
+    "version": "1.0.0",
+    "description": "Basic Time Tracker",
+    "scripts": {
+        "solhint": "solhint \"contracts/**/*.sol\"",
+        "solhint:fix": "solhint \"contracts/**/*.sol\" --fix",
+        "lint": "eslint \"{scripts,test,tasks}/**/*.ts\"",
+        "lint:fix": "eslint \"{scripts,test,tasks}/**/*.ts\" --fix",
+        "format": "prettier --write \"contracts/**/*.sol\" \"{scripts,test,tasks}/**/*.ts\""
+    },
+    "keywords": [],
+    "author": "Tuckson",
+    "license": "ISC",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.7",
+        "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+        "@typescript-eslint/eslint-plugin": "^5.48.0",
+        "@typescript-eslint/parser": "^5.48.0",
+        "eslint": "^8.31.0",
+        "hardhat": "^2.12.5",
+        "prettier": "^2.8.2",
+        "prettier-plugin-solidity": "^1.1.1",
+        "solhint": "^3.3.7"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3"
+    }
+}
